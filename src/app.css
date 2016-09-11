@@ -1,0 +1,19 @@
+#app {
+    width: 1600px;
+    overflow: hidden;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 30px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.legend {
+    display: none !important;
+}
+
+p{
+    font-family: 'Bangers', cursive;
+    font-size: 40px;
+}
