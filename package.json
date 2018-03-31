@@ -1,32 +1,12 @@
 {
-  "name": "react-hot-boilerplate",
-  "version": "1.0.0",
-  "description": "Boilerplate for ReactJS project with hot code reloading",
+  "name": "web-bluetooth-heart-rate-monitor",
+  "version": "0.0.1",
+  "description": "Reading the heart rate and drawing a chart based on the collected data",
   "scripts": {
     "start": "node server.js",
+    "build": "webpack --config config/webpack.production.js",
     "lint": "eslint src"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gaearon/react-hot-boilerplate.git"
-  },
-  "keywords": [
-    "react",
-    "reactjs",
-    "boilerplate",
-    "hot",
-    "reload",
-    "hmr",
-    "live",
-    "edit",
-    "webpack"
-  ],
-  "author": "Dan Abramov <dan.abramov@me.com> (http://github.com/gaearon)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/gaearon/react-hot-boilerplate/issues"
-  },
-  "homepage": "https://github.com/gaearon/react-hot-boilerplate",
   "devDependencies": {
     "babel-core": "^6.0.20",
     "babel-eslint": "^4.1.3",
@@ -38,15 +18,18 @@
     "eslint": "^1.10.3",
     "eslint-plugin-react": "^3.6.2",
     "react-hot-loader": "^1.3.0",
-    "style-loader": "^0.13.1",
+    "style-loader": "^0.13.2",
     "webpack": "^1.12.2",
     "webpack-dev-server": "^1.12.1"
   },
   "dependencies": {
+    "html-webpack-plugin": "^3.1.0",
     "material-ui": "^0.15.4",
+    "node-sass": "^4.8.3",
     "react": "^15.0.0",
     "react-d3-zoom": "^1.1.2",
     "react-dom": "*",
-    "react-tap-event-plugin": "^1.0.0"
+    "react-tap-event-plugin": "^1.0.0",
+    "sass-loader": "^6.0.7"
   }
 }
